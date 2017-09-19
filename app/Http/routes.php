@@ -11,9 +11,7 @@
 |ss
 */
 
-Route::get('/', function () {
-    return view('home');
-});
+Route::get('/', 'ViewController@index');
 
 Route::get('/belajar2', function () {
     return view('belajar2');
