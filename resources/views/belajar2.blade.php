@@ -5,6 +5,7 @@
 </head>
 <body>
 <p>percobaan pertama belajar laravel</p>
+{{$showContent}}
 
 </body>
 </html>

@@ -11,8 +11,20 @@
 |ss
 */
 
+
 Route::get('/', 'ViewController@index');
 
 Route::get('/belajar2', function () {
     return view('belajar2');
 });
+
+Route::get('/tambah', 'ViewController@create');
+
+Route::get('/ubah', 'ViewController@update');
+
+Route::get('/tampil', 'ViewController@show');
+
+Route::get('/hapus', 'ViewController@delete');
+
+
+
